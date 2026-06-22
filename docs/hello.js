@@ -1,0 +1,1 @@
+console.log("你好，JavaScript！"); // console.log 是「打印到控制台」

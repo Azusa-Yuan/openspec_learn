@@ -1,0 +1,36 @@
+{
+  "name": "openspec-learn",
+  "version": "1.0.0",
+  "description": "TypeScript 基础 + Node.js 生态系统 学习教程与可运行练习",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "js:01": "node src/js-01-basics.js",
+    "js:02": "node src/js-02-functions.js",
+    "js:03": "node src/js-03-array-object.js",
+    "ex:01": "ts-node src/01-types.ts",
+    "ex:02": "ts-node src/02-interface-type.ts",
+    "ex:03": "ts-node src/03-functions.ts",
+    "ex:04": "ts-node src/04-generics.ts",
+    "ex:05": "ts-node src/05-class.ts",
+    "ex:06": "ts-node src/06-utility-types.ts",
+    "ex:07": "ts-node src/07-event-loop.ts",
+    "ex:08": "ts-node src/08-async.ts",
+    "ex:09": "ts-node src/09-core-modules.ts",
+    "server": "ts-node src/10-http-server.ts"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "tutorial",
+    "learning"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

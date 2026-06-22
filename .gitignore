@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+
+# 编译产物
+dist/
+
+# 日志与环境
+*.log
+.env
+
+# 编辑器/系统
+.DS_Store
+.idea/
+.vscode/
